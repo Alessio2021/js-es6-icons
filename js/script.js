@@ -118,7 +118,6 @@ const container = document.querySelector('.main-container');
 
 
 const select = document.getElementById('select');
-let selectValue = parseInt(select.value);
 
 
 classes.forEach(element => {
@@ -132,6 +131,8 @@ classes.forEach(element => {
 });
 
 select.addEventListener('change', function() {
+    let selectValue = parseInt(select.value);
+
     switch (selectValue) {
         case 1:
         default:
