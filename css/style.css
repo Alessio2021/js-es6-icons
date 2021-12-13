@@ -43,11 +43,37 @@ html {
 main {
     height: calc(100vh - 120px);
     background-color: #DDDDDD;
+
+}
+
+.main-container{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 75px;
+    column-gap: 80px;
+}
+
+.animals{
+    color: blue;
+}
+
+.vegetables {
+    color: orange;
+}
+
+.user {
+    color: purple;
 }
 
 .square {
+    background-color: white;
     width: 230px;
     height: 110px;
-    background-color: blue;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px grey;
 }
