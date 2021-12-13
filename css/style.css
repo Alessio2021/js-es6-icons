@@ -54,16 +54,25 @@ main {
     column-gap: 80px;
 }
 
-.animals{
+.fontsizex2 {
+    font-size: 2.5em;
+}
+
+.animal{
     color: blue;
 }
 
-.vegetables {
+.vegetable {
     color: orange;
 }
 
 .user {
     color: purple;
+}
+
+h3{
+    color: black;
+    text-transform: uppercase;
 }
 
 .square {
@@ -76,4 +85,5 @@ main {
     justify-content: center;
     align-items: center;
     box-shadow: 2px 2px grey;
+    cursor: pointer;
 }
